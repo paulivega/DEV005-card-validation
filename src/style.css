@@ -1,0 +1,64 @@
+h1 {
+    font-style: oblique;
+    text-align: center;
+    font-size: x-large;
+    color: #D2DAFF;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    color: #d0d4e6;
+}
+
+.button {
+    
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    background-image: linear-gradient(to right,rgba(231, 210, 179, 0.952),rgba(233, 150, 25, 0.859));
+    font-size: medium;
+    border: black;
+    color: blue;
+    text-align: center;
+    border-bottom: blue;
+    border-radius: 10px
+
+}
+
+.input {
+    border-bottom: blue;
+    margin-bottom: 40px;
+    
+}
+header{
+        background-color:#EEF1FF
+        background-image: linear-gradient(to right, #B1B2FF, #EEF1FF);
+        margin-left: 5%;
+        margin-right: 5%;
+        background-attachment: fixed;
+}
+body{
+    background-color: lightgreen;
+    background-image: linear-gradient(to bottom, blue, lightblue);
+    border-style: double;
+    height: 100%;
+
+}
+main {
+    background-color: D2DAFF;
+    border-style: dotted;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    text-align: center;
+    background-color: #B1B2FF;
+    background-image: linear-gradient(to right,#B1B2FF ,#EEF1FF);
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
