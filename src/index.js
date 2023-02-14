@@ -1,6 +1,6 @@
-//import validator from './validator.js';
-//console.log(validator);
-
+import validator from './validator.js';
+console.log(validator);
+console.log(validator);
 
 
 
@@ -21,7 +21,6 @@ function validar() {
     }
     console.log('pairs='+pairs)
     alert("Presionaste validar")
-    //alert("cardnumber; " + arrayCard + " reverse:" + arrayReverse +" pairs "+ pairs)
 }
 
 document.getElementById("validate").addEventListener("click", validar)
@@ -30,17 +29,5 @@ document.getElementById("validate").addEventListener("click", validar)
 
 
 
-//let validar= null;
- //document.getElementById("validate").addEventListener('click',function(){
- //   alert('Presionaste el botón validar' + cardNumber)
-//})
 
-//let cardNumber = document.getElementById("cardnumber").value;
-
-//function a(){
-  //  alert("Presionaste boton validar");
-
-
-
-//console.log(validator);
 
