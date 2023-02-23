@@ -1,64 +1,117 @@
+
+body {
+    height: 75vh;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #253659;
+}
 h1 {
-    font-style: oblique;
-    text-align: center;
-    font-size: x-large;
-    color: #D2DAFF;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size :large;
+    font-weight: bold;
 }
 
-h2 {
-    text-align: center;
-    font-size: large;
-    color: #d0d4e6;
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+     
 }
 
-.button {
-    
-    width: 100px;
+#viewTitle{
+    background-color: #03A696;
+    background-image: linear-gradient(to right,#03A696,#F27457);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#viewCard{
+    background-color: #04BF9D;
+    background-image: linear-gradient(to right,#04BF9D,#9dd4ca);
+    border-radius: 20px; 
+    height: 150px;
+    width: 45%;
+    border: 3px solid #03A696;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin: 15px; 
+    text-align: center;
+    font-size: 18px;
+}
+
+#validCardSection{
+    background-color:#F27457 ;
+    background-image: linear-gradient(to right,#F27457,#b87465);
+    border: 3px solid #BF665E;
+    width: 43%;
+    margin: 20px;
+    margin-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+    min-height: 20px;
+    max-height: 20px;
+    display: none;
+}
+
+#viewMaskifyCard{
+    background-color: #F27457;
+    background-image: linear-gradient(to right,#F27457,#b4867c);
+    border-radius: 20px;
+    text-align: center;
+    height: 150px;
+    width: 45%;
+    border: 3px solid #BF665E;
+    font-style: italic;
+    display: none;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin: 15px; 
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+footer{
+    background-color: #03A696;
+    background-image: linear-gradient(to right,#03A696,#F27457);
+    text-align: center;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size :normal;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: #F27457;
+    background-image: linear-gradient(to right,#F27457,#c6aea8);
+    border: 2px solid #BF665E;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size :15px;
+    font-weight: bold;
     height: 30px;
-    background-color: orange;
-    background-image: linear-gradient(to right,rgba(231, 210, 179, 0.952),rgba(233, 150, 25, 0.859));
-    font-size: medium;
-    border: black;
-    color: blue;
-    text-align: center;
-    border-bottom: blue;
-    border-radius: 10px
-
+    width: 120px;
 }
 
-.input {
-    border-bottom: blue;
-    margin-bottom: 40px;
-    
-}
-header{
-        background-color:#EEF1FF
-        background-image: linear-gradient(to right, #B1B2FF, #EEF1FF);
-        margin-left: 5%;
-        margin-right: 5%;
-        background-attachment: fixed;
-}
-body{
-    background-color: lightgreen;
-    background-image: linear-gradient(to bottom, blue, lightblue);
-    border-style: double;
-    height: 100%;
 
-}
-main {
-    background-color: D2DAFF;
-    border-style: dotted;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-footer {
-    text-align: center;
-    background-color: #B1B2FF;
-    background-image: linear-gradient(to right,#B1B2FF ,#EEF1FF);
-    color: black;
-    margin-left: 5%;
-    margin-right: 5%;
+input {
+    border-color: #253659;
+    border-radius: 5px;
 }
