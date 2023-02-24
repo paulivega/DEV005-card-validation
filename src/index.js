@@ -24,9 +24,10 @@ function mostrarValidar() {
   const validar = validator.isValid(cardNumber);
   if (validar) {
     validCard.innerHTML = 'Tarjeta Válida'
-
+    validCardSection.style.border ='3px solid green'
   } else {
     validCard.innerHTML = 'Tarjeta Inválida. Ingresa nuevamente.'
+    validCardSection.style.border ='3px solid red'
   }
 }
 function mostrarTarjeta() {
