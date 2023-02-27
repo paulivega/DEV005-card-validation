@@ -47,16 +47,12 @@ h3{
     margin: 15px; 
     text-align: center;
     font-size: 18px;
-}
+}                                                           
 
 #validCardSection{
-    background-color:#F27457 ;
-    background-image: linear-gradient(to right,#F27457,#b87465);
     border: 3px solid #BF665E;
-    width: 43%;
-    margin: 20px;
     margin-top: 20px;
-    padding-left: 50px;
+    padding: 6px;
     text-align: center;
     min-height: 20px;
     max-height: 20px;
@@ -93,6 +89,8 @@ p{
     font-style: italic;
     font-size :normal;
     font-weight: bold;
+    padding: 3px;
+    margin: 10px;
 }
 
 button{
