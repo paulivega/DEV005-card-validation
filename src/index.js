@@ -19,7 +19,7 @@ function emptyInput() {
   }
   return emptyCard
 }
-function mostrarValidar() {
+function viewValidation() {
   const cardNumber = document.getElementById('inputCard').value
   const validar = validator.isValid(cardNumber);
   if (validar) {
@@ -30,12 +30,12 @@ function mostrarValidar() {
     validCardSection.style.border ='3px solid red'
   }
 }
-function mostrarTarjeta() {
+function viewCard() {
   const cardNumber = document.getElementById('inputCard').value
   maskifyNumber.innerHTML = validator.maskify(cardNumber);
 }
 // funcion ocultar el input y aparecer validación tarjeta de crédito
-function ocultarInput() {
+function showValidation() {
   validCardSection.style.display = 'block'
   viewMaskifyCard.style.display = 'block'
 
@@ -47,9 +47,9 @@ btnValidation.addEventListener('click', clickbtn);
 function clickbtn() {
   const isEmpty = emptyInput();
   if (!isEmpty) {
-    mostrarValidar();
-    mostrarTarjeta(); 
-    ocultarInput();
+    viewValidation();
+    viewCard(); 
+    showValidation();
   }
 
 
